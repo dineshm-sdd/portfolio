@@ -1,4 +1,4 @@
-export type Project = { name:string; category:string; type:string; url?:string; github?:string; device?:string; year?:string; nda?:string; designer?:string; technology?:string; description?:string }
+export type Project = { name: string; category: string; type: string; url?: string; github?: string; device?: string; year?: string; nda?: string; designer?: string; technology?: string; description?: string }
 
 export const projects: Project[] = [
   {
@@ -2887,5 +2887,15 @@ export const projects: Project[] = [
     "technology": "AI + NextJs",
     "designer": "Deep Jaswal",
     "description": "Tour & Travel (Car booking, Hotel Booking)"
+  },
+  {
+    "name": "Guam Walking Tour",
+    "category": "Tour & Travel",
+    "type": "In-house Project",
+    "url": "https://guam-walking-tour.vercel.app/",
+    "github": "https://github.com/MohitKumar-design/guam-walking-tour",
+    "technology": "AI + VanilaJs",
+    "designer": "Mohit Kumar",
+    "description": "Official Digital walking tour using GPS and Audio Narration for historical sites in Hagåtña, Guam. Features include 21 GPS-triggered locations, interactive map, route guidance, AR view, and accessibility options."
   }
 ];
