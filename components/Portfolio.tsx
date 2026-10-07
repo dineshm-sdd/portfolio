@@ -367,6 +367,8 @@ export default function Portfolio() {
                         Dev: {getInitials(p.designer)}
                       </span>
                     )}
+                    {/* NDA status */}
+                    {p.nda ? <span>{p.nda}</span> : <span>No NDA</span>}
                   </div>
                   <div className="links">
                     {p.url && p.url.startsWith("http") && (
